@@ -7,7 +7,7 @@ Check out a [Live Demo](https://harish.tech/projects/Bezier-Curve/) of the imple
 
 ![](resources/action.gif)
 
-The simplest implementation![](basic/index.html)
+The most minimal form of implementation is hosted [here](https://harish.tech/projects/Bezier-Curve/basic)
 
 Feel free to use it if you find it interesting.
 
