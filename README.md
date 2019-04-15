@@ -5,7 +5,7 @@ It can be used to draw complex Bezier curves with an arbitrary number of control
 
 Check out a [Live Demo](https://harish.tech/projects/Bezier-Curve/) of the implementation 
 
-![](resourses/action.gif)
+![](resources/action.gif)
 
 Feel free to use it if you find it interesting.
 
