@@ -86,9 +86,9 @@ function bezierCurve(t) {
     return [xCoordinate,yCoordinate];
 }
 
-function randomize() {
+function randomize(numberOfControlPoints) {
     clearCanvas();
-    for(i=0;i<20;i++){
+    for(i=0;i<numberOfControlPoints;i++){
        controlPoints.push({"x":(Math.random () * (window.innerWidth)),"y":(Math.random () * (window.innerHeight*.8))});
     }
     ctx.beginPath();
@@ -108,3 +108,5 @@ function randomize() {
         ctx.fillRect(xv,yv,5,5);
     }
 }
+
+randomize(10);
